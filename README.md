@@ -20,7 +20,7 @@ Do NOT share CodeKit 2. No tweets, no screenshots, no sending the app to your bu
 
 ### Filing Bugs
 
-Use the issues page of this repository. Please search existing issues before opening a new one. You can also use this area to suggest features or just leave general feedback.
+Use the issues page of this repository. *Please search existing issues (including closed issues) before opening a new one.* You can also use this area to suggest features or just leave general feedback.
 
 ---------------------------------------------------------
 
