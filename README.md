@@ -6,6 +6,22 @@ CodeKit 2 Beta
 
 Do NOT share CodeKit 2. No tweets, no screenshots, no sending the app to your buddy, etc. You are the first people other than my close friends to see CodeKit 2. Please don't ruin my launch.
 
+
+---------------------------------------------------------
+
+### Filing Bugs
+
+1. *BE SURE* you're running the latest beta.
+2. Search the issues page (including closed issues) for the bug you're seeing.
+3. If the bug is new, write up an issue and include:
+
++ Bug description
++ How you got it to happen (steps to reproduce)
++ What OS you're on
++ What editor you're using, what language you're working in, etc.
+
+
+
 ---------------------------------------------------------
 
 ### How To Proceed
@@ -15,12 +31,6 @@ Do NOT share CodeKit 2. No tweets, no screenshots, no sending the app to your bu
 3. Drag CodeKit 2 to your Applications folder.
 4. QUIT CODEKIT 1!
 5. Launch CodeKit 2.
-
----------------------------------------------------------
-
-### Filing Bugs
-
-Use the issues page of this repository. *Please search existing issues (including closed issues) before opening a new one.* You can also use this area to suggest features or just leave general feedback.
 
 ---------------------------------------------------------
 
