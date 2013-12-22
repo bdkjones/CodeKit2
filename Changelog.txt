@@ -1,0 +1,52 @@
+BETA 3
+------------------------------------------
+
+- Fixed tooltips on Less source map checkboxes in Inspector and project settings areas
+
+- Added alert when re-writing MAMP's configuration makes no changes to files.
+
+- Added "Tools" menu containing option to re-run MAMP OPCache disabling.
+
+- Tried implementing source maps for libsass, but something isn't right. Working with libsass team to get it fixed.
+
+- Crash window graphics updated and retina-fied
+
+- SVG images now supported by CodeKit's internal server
+
+- POST requests now supported by CodeKit's internal server for url-encoded type. multipart/form-data type unsupported.
+
+- Browser refreshing in Firefox is fixed
+
+- UI glitches fixed in project settings area when you have OS X set to "always display" scrollbars.
+
+
+
+
+
+
+BETA 2
+------------------------------------------
+
+- Eliminate the 'none' output style for JS files
+
+- JS files will always syntax check when saved (if you have set them to do so), regardless of whether they create an output file or not
+
+- Hide the splash screen anytime the drawer area opens. Fixes several UI glitches.
+
+- Checkboxes in the CodeKit Frameworks list in Project Settings now work correctly
+
+- Fixed an issue that caused the app to crash anytime you added a projet if you had first modified any "New Project Defaults" options for JSHint or JSLint.
+
+- Added better handling to avoid crashes when stuff goes wrong with watched folder paths
+
+
+
+
+
+
+BETA 1
+------------------------------------------
+
+Initial release
+
+
