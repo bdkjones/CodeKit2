@@ -1,3 +1,36 @@
+BETA 4  (15773)
+------------------------------------------
+
+- Tons of changes. Read carefully:
+
+- CodeKit's internal server now defaults to non-Bonjour addresses based on the IP assigned by your local area network, if one is available. (These addresses look like this: http://192.168.1.17:5757) These addresses work on devices that don't support Bonjour (Android). IP-based addresses are only available if you're connected to a network. If you aren't, CodeKit will fall back to the Bonjour-based address (like http://vdk.local:5757). When your Mac next connects to a network, CodeKit will automatically switch back to IP-based addresses. When you disconnect from a network, it will automatically switch to Bonjour-based addresses. The idea is: it should always just work.
+
+- The "Preview" button will still open the Bonjour-based address. The Server popover shows the non-Bonjour address you'll need to use on Android. 
+
+- You can now customize the Bower_Components folder location. See General pane of project settings area.
+
+- Internal server now returns correct content-type headers for JS and CSS files. Eliminates pedantic errors in Chrome console.
+
+- Preferenes window now comes to front when selected from menubar command while app is in background
+
+- Cached versions of files should NEVER be served now. Theoretically.
+
+- New options for browser refreshing: disable animation, turn on reload of file:// URLS. (Leaving the latter off will improve performance.)
+
+- Option to specify a webroot that is different than the project's root folder. The webroot is the folder that will open when you click the 'Preview' button.
+
+- All the bugs with output-path-setting should be fixed. NOTE: you still have to click the "sync" button in the upper right to apply new output paths; they do not automatically apply to existing files in a project when you edit them in the project settings area.
+
+- Various UI changes
+
+- The release notes will be funny again when we leave beta. 
+
+
+
+
+
+
+
 BETA 3
 ------------------------------------------
 
