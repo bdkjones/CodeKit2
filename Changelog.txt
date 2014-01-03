@@ -1,3 +1,25 @@
+BETA 5 (15825)
+------------------------------------------
+
+- libsass should no longer crash
+
+- Source maps now available with libsass. However, there is a killer bug in libsass that currently writes the wrong output filename in the source map file. You'll need to change "file.scss" to "file.css" manually each time the map is written. There's an open issue on the libsass page to fix this.
+
+- If a file does not exist AND is a type that CodeKit can serve itself (HTML, JS, CSS, etc), CodeKit will now automatically toss the request to your external server RATHER than simply returning a 404. This should resolve issues with custom MOD_REWRITE and permalinks in Wordpress. 
+
+- Autoprefixer updated to 1.0. Minified CSS will now remain minified after autoprefixer runs.
+
+- Fixed: crash when a project is removed while the 'scope' is set to something other than "All Files"
+
+- Fixed: screenshot window size is now always correct
+
+- Fixed: Files will no longer double-compile. NOTE: From now on, CodeKit will acknowledge a file-save event only once every 1.5 seconds. If you save a file more often than once every 1.5 seconds, every save event will be ignored until 1.5 seconds have elapsed since the last save event that CodeKit responded to.
+
+- Fixed (hopefully): Glitches when the Inspector pane animates in on 10.8.5. 
+
+
+
+
 BETA 4  (15773)
 ------------------------------------------
 
