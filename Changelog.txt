@@ -1,3 +1,27 @@
+BETA 6 (15860)
+------------------------------------------
+
+- Resolves crashes when clicking the "Preview" button
+
+- I could write all the technical details about what's changed in the browser refreshing process, but it's super complex. Here's the bottom line:
+
+1) Wordpress should just work. All of it. 
+2) If you use MOD_REWRITE or permalinks or .htaccess files, you need to check the "Use External Server for all requests" box. 
+3) You should check that box for Wordpress projects.
+
+- The change in Beta 5 that had CodeKit automatically contact the external server when a given resource does not exist locally is REVERSED. (There were unintended consequences.) This is why you must check the "use external server for all requests" box when your site uses MOD_REWRITE --- the URLs you request do not map to files on disk; those URLs must be transformed by the MOD_REWRITE rules to map to files that should be served. That process is handled by your external server.
+
+- The hidden .sass-cache folder will now be created in the correct location: the same folder as your Sass file.
+
+- Skipped items can now include paths relative to the project folder. (Allows you to skip one specific folder named "vendor" but not another folder named "vendor" at a different path, etc.)
+
+- Fixes issue where Sass output paths were not applied when you change them in project settings and then click the "sync" button.
+
+- Other bug fixes I was too lazy to put in my Git commit messages.
+
+
+
+
 BETA 5 (15825)
 ------------------------------------------
 
