@@ -1,3 +1,26 @@
+BETA 7 (15888)
+------------------------------------------
+
+A.K.A. "The Build that finally fixes all the server stuff."
+
+-- Using an external server should be roughly twice as fast in this build. CodeKit is now much more efficient at forwarding HTTP requests to the external server. In practical terms, you should feel almost no speed difference between using CodeKit's proxy server and going to your external server's address directly.
+
+-- The "Content-Length" HTTP response header is now updated correctly when CodeKit injects text into a page. This eliminates issues where parts of pages do not load.
+
+-- Using an external server address with a subpath now works correctly. Example: You have MAMP set to host a folder called "sites". MAMP is running on port 8888 at localhost. The "sites" folder contains a bunch of subfolders, each one of which is a website project. One of these subfolders is called "clientX". You add "clientX" to CodeKit as a project, then enter this for your external server address (in project settings): "http://localhost/clientX" Hit preview and it just works.
+
+-- If you enter a port in the "external server address" text field by adding a colon after the host name (example: http://localhost:4321/somePath), the '4321' is now discarded and replaced by the value of the "port" textfield in the project settings.
+
+-- ALL caching is now disabled for both internal and external servers. CodeKit strips the "If-Modified-Since" and "If-None-Match" HTTP headers from incoming requests so that you are GUARANTEED to have every resource re-served from the server, whether that's the internal one or external one. This is what you want when you're developing; caches are trouble.
+
+-- Fixed a couple edge-case crash scenarios
+
+-- Fixed an issue related to the libsass update in Beta 6
+
+
+
+
+
 BETA 6 (15860)
 ------------------------------------------
 
