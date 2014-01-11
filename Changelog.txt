@@ -1,3 +1,28 @@
+BETA 8 (16052)
+------------------------------------------
+
+A.K.A. "No, really. The server stuff is fixed now."
+
+-- IMPORTANT: CodeKit now requires OS 10.8+. I use some APIs that aren't available on 10.7.
+
+-- Big change: CodeKit no longer automatically contacts your external server if it can't handle a resource on its own. Your project either uses an external server, or it does not and you control that in the settings. This provides more predictable behavior.
+
+-- All projects using external servers should now "just work". Cookies, Redirects, .htaccess, MOD_REWRITE, subpaths in your server address (e.g. http://localhost:8888/some/path/to/webroot)... all of it should be bulletproof now. Thanks to all those who provided sample projects! I used them extensively to test and made sure each one worked correctly.
+
+-- Wordpress sites now work correctly, including the back-end administration area.
+
+-- Fixed: issue where changes to JSHint and JSLint settings were not saved after refreshing a project
+
+-- Fixed: Git is now bundled correctly into the application package, so Bower works even if you don't have Git installed on your Mac.
+
+-- Updated error pages for 404, external server errors, no index page errors, etc.
+
+
+
+
+
+
+
 BETA 7 (15888)
 ------------------------------------------
 
