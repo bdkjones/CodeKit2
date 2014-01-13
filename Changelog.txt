@@ -1,3 +1,25 @@
+
+BETA 9, Release Candidate 1 (16100)
+------------------------------------------
+
+-- I got tired of working on server stuff, so I decided to fix some other bugs. Also, my designer informed me that I broke Compass in the previous beta and he couldn't work on my website until I fixed the app. Hence:
+
+-- Compass now works correctly.
+
+-- Installing Zurb (or creating a new Zurb project) now works again.
+
+-- You no longer need Git installed on your system to use the "Assets" area or to create a new Zurb project
+
+-- Less has been updated to version 1.6
+
+-- NOTE: if you choose the "compressed" output option for your Less files, you will not get a sourcemap. This is a known shortcoming of Less 1.6. Nothing I can do about it until the Less team gets it working.
+
+
+
+
+
+
+
 BETA 8 (16052)
 ------------------------------------------
 
