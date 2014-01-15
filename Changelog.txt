@@ -1,5 +1,25 @@
+BETA 10 (16108)
+------------------------------------------
 
-BETA 9, Release Candidate 1 (16100)
+Still procrastinating on server stuff. That's for tomorrow. In the meantime, this Beta fixes a few lingering issues:
+
+-- Autoprefixer now runs correctly after compiling with libsass
+
+-- Compass should now run correctly in every case
+
+-- If you create a JS or CoffeeScript import link by dragging/dropping within CodeKit, you can now delete that link by selecting it in the right-hand inspector area and pressing delete
+
+-- CodeKit's internal servers now wait 2.5 seconds before responding to OS X's "network status has changed" events so they're less likely to grab the wrong IP address for your Mac. (Your IP does not instantly get assigned the minute you wake your Mac up; it takes some time for that to resolve.)
+
+-- Removed some extraneous logging
+
+
+
+
+
+
+
+BETA 9 (16100)
 ------------------------------------------
 
 -- I got tired of working on server stuff, so I decided to fix some other bugs. Also, my designer informed me that I broke Compass in the previous beta and he couldn't work on my website until I fixed the app. Hence:
