@@ -1,3 +1,22 @@
+BETA 11 (16140)
+------------------------------------------
+
+-- External Server addresses that contain a trailing slash are now handled correctly.
+
+-- "Update all Installed Components" in the Assets area is now functional.
+
+-- Fixed: In Kit files, @import statements that contain a filepath NOT wrapped in quotes are now handled correctly. Previously, those files would not be detected.
+
+-- Has ANYONE tested ANY hooks, whatsoever? So many people asked for this feature and I spent a lot of time on it!
+
+-- I think we're actually getting close...
+
+
+
+
+
+
+
 BETA 10 (16108)
 ------------------------------------------
 
