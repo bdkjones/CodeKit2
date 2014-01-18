@@ -1,3 +1,16 @@
+BETA 12 (16142)
+------------------------------------------
+
+-- Fixes a bug introduced in Beta 11 where External Server Addresses with subpaths or without trailing slashes were handled incorrectly leading to addresses such as: http://localhost:8888(null)/
+
+-- I should not be allowed to write software.
+
+
+
+
+
+
+
 BETA 11 (16140)
 ------------------------------------------
 
