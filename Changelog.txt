@@ -1,3 +1,37 @@
+Beta 13 (16338)
+------------------------------------------
+
+-- External Server overhaul. Port textfield eliminated, ability to specify a subpath to load when clicking preview button added. Supports Symphony2 server configurations, with docRoot above the project folder. (You now add the port into the address field, if needed.)
+
+-- External server option now uses a giant switch instead of the small checkbox
+
+-- Assets tab: sorting by name is no longer case-sensitive.
+
+-- CKRP.js "reset to root" reloads now account for the new "preview path addition" above.
+
+-- Various spelling errors fixed
+
+-- Clicking the "lost connection" overlay will now reload the page (good for when your iOS device goes to sleep).
+
+-- IP-based external server address now prefers IPs starting with 192, 171 or 10 over all others.
+
+-- Remove icon on projects popover tableViewCells now hovers correctly if you remove a row and the next row's icon slides under the cursor
+
+-- Clicking the project refresh button while editing a textField in project settings will now commit the textField's current value to the project settings file before refreshing. (Before, the editing value was discarded and reset to whatever was in the project config file.)
+
+-- When using an External server and viewing a URL that has a query string, now correctly adds the injection script into the HEAD element if it exists. Previously, the query string would cause detection of an HTML file to fail. Now use "content-type" header value rather than file extension to determine if the returned resource is HTML.
+
+-- If you move an output file (one that's created when another file is processed) out of your project, the creator file's outputPath setting will remain the same. If you move the file WITHIN the project, the creator file's outputPath setting will update to compile the file to its new location. Previously, the outputPath always changed, leading to bad behavior when files were moved out of the project folder.
+
+-- No dice on the Chrome cookie issue yet. Still working. For now, use Safari if you need to log in to Wordpress, etc.
+
+
+
+
+
+
+
+
 BETA 12 (16142)
 ------------------------------------------
 
