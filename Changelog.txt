@@ -1,3 +1,28 @@
+Beta 14 (16377)
+------------------------------------------
+
+-- Bourbon updated to the latest version. Fixes an issue where compiling a stylesheet with Bourbon would hang indefinitely.
+
+-- THE CHROME COOKIE ISSUE IS FIXED. Took 2+ weeks, hours of trial-and-error and, eventually, rewriting part of OS X. But you can now log into Wordpress on Chrome.
+
+-- Keyboard shortcut added for "Preview". Hit command+p.
+
+-- Tooltips fixed in Project Settings area
+
+-- It is no longer possible to launch more than one "Choose Output Path" panel at a time
+
+-- The black pixel in the 32x32 app icon is fixed
+
+-- Reverted trailing slash logic to fix issues with redirect loops. If you see delays when previewing projects using an external server, let me know and try adding a trailing slash.
+
+
+
+
+
+
+
+
+
 Beta 13 (16338)
 ------------------------------------------
 
