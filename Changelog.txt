@@ -1,3 +1,53 @@
+Beta 15 (16495)
+------------------------------------------
+
+-- Changes were made to the app's data model, so this release will wipe everything on first launch. (No data migration in betas -- I save that work for production releases.)
+
+-- All entries in the project config file are now alphabetized. Makes working with them in Git more pleasant. 
+
+-- Fixed bug where no projects appeared in sidebar when app launches if all projects were disabled. 
+
+-- Fixed bug where the preview icon of the CodeKit window in Mission Control's Spaces view always showed the drag overlay instead of the current window state.
+
+-- All domain values for Set-Cookie headers are now stripped before a response from an external server is forwarded to the browser by CodeKit. With no explicit domain defined for the Cookie, the browser will store and send that cookie for the current document's domain, which is exactly what we want. (Resolves Drupal login issue and similar.)
+
+-- When installing Compass and Foundation in empty projects (or projects that have only a codekit.config file), you'll no longer be prompted to confirm deleting all project contents. Resolves irritating UX confirmations for New Compass Project and New Foundation Project workflows.
+
+-- Fixes issue where output files may not show up in CodeKit window until after a project refresh. They now show up as soon as they're created (by triggering a project refresh on creation). 
+
+-- TypeScript compiler fully implemented.
+
+-- TypeScript updated to version 0.9.5
+
+-- UglifyJS updated to 2.4.12
+
+-- Node.js updated to 0.10.25
+
+-- For CoffeeScript, Javascript and TypeScript: dragging a prepended/appended file out of the list in the inspector will now show the system-standard "delete" cloud correctly. The snap-back animation is also fixed: the import link will now delete immediately when you release the drag. But as a byproduct, it's no longer possible to drag these items outside of CodeKit to open them in an editor, etc. (None of this applies to import links created with in-file statements.)
+
+-- Fixed animation glitch: The inspector will now wait until the "spinner bar" at the bottom of the app finishes animating in/out before it animates in. Previously, it would animate in simultaneously, producing a grey area at the top as the frame changed size during animation.
+
+-- AutoPrefixer updated to 1.0.20140203
+
+-- Using Autoprefixer should no longer break source maps (the maps will be updated with the changes made by Autoprefixer). In theory.
+
+-- Less updated to 1.6.2
+
+-- Libsass updated to the latest commit; will still probably fail in a lot of cases. It's alpha, people!
+
+-- Added a warning dialog box when you enable Libsass.
+
+-- When using Ruby Sass, if a file compiles successfully but generates warnings (such as deprecation notices), those will now be shown in the log.
+
+-- New preferences to control whether the app comes to the front and beeps when compiling succeeds but includes warnings.
+
+
+
+
+
+
+
+
 Beta 14 (16377)
 ------------------------------------------
 
