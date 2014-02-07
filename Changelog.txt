@@ -1,3 +1,38 @@
+Beta 16 (16534)
+------------------------------------------
+
+-- Copyright year updated
+
+-- Warning about libsass being experimental no longer shown when turning libsass OFF.
+
+-- Fixed: bug in Sass compiler that could cause hangs if Sass spits out more than 64kb of text to the standard error pipe while running. (Also got the Sass team to fix this on their end, so Sass no longer spits out Tolstoy-length errors)
+
+-- Fixed: bug that added an extra CRLF sequence between the headers and body of an HTTP response that contains a Set-Cookie header, resulting in truncated content in the browser
+
+-- JSHint updated to 2.4.3. Brings several new options
+
+-- JSLint updated to the 2014-01-26 release. Adds the 'todo' option
+
+-- Bourbon & Bourbon Neat both updated to latest releases. Note: they are still not fully compatible with Sass 3.3; you'll get deprecation warnings when compiling
+
+-- "Lost connection" bar z-index now actually higher, like it was supposed to be in the last beta
+
+-- Stylus updated to 0.42.2
+
+-- Nib updated to 1.0.2
+
+-- CoffeeScript updated to 1.7.1
+
+-- Jade updated to 1.1.5
+
+-- The URL for the "Check For Updates" feature has been changed from the CodeKit 1.x URL in preparation for launch
+
+
+
+
+
+
+
 Beta 15 (16495)
 ------------------------------------------
 
