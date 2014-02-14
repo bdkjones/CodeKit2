@@ -1,3 +1,20 @@
+Beta 17 (16546)
+-------------------------------------------
+
+-- FIXED: Hooks code editor is now horizontally scrollable
+
+-- CHANGED: If you rename a file that generates an output file, the output file will now be renamed accordingly (by applying your default output path settings) UNLESS you have specifically set an output path for the file in question by clicking the "target" button and choosing a path yourself. This solves the issue where you duplicate a file in your IDE (say, "main copy.sass") and then rename that file to "other.sass". Previously, it would still compile to "main copy.css". Now it will compile to "other.css". 
+
+-- Installing Zurb Foundation through the "New Foundation Project" workflow will now remove the '.git' and '.gitignore' files from the project folder
+
+-- Added several items to the default Skipped Items list to make the app just work with Statamic projects
+
+-- Sass updated to 3.3.0.rc3 (Brings several fixes, including limiting deprecation warnings when variables don't use !global syntax)
+
+
+
+
+
 Beta 16 (16534)
 ------------------------------------------
 
