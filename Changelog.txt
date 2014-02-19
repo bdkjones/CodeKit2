@@ -1,3 +1,23 @@
+Beta 18 (16609)
+--------------------------------------------
+
+-- Menubar icon now yellow for warnings and red for errors. 
+
+-- New option to have latest log entries appear at the top instead of the bottom
+
+-- Fix typo in Bower warning dialog
+
+-- The Languages section of Project Settings: "apply" text added to buttons so it's more obvious what they do
+
+-- Fix issue where wrong checkbox state was shown in the Projects Popover when the tableview in that popover loses firstResponder status
+
+-- Fix issue that stopped Stylus files from compiling when using Nib
+
+-- The Ruby Sass compiler has been rolled back to an earlier version between 3.3.rc2 and 3.3.rc3 because the Sass team introduced some bugs that cripple Foundation in the latest updates. I've got them working on the problem.
+
+
+
+
 Beta 17 (16546)
 -------------------------------------------
 
