@@ -1,3 +1,40 @@
+Beta 19 (16653)
+--------------------------------------------
+
+-- License activation tracking now in place in preparation for launch
+
+-- CodeKit's internal server now correctly returns a 404 status code for missing files. Previously, a 200 was returned.
+
+-- Strings next to checkboxes in the preferences window are no longer truncated
+
+-- If a text field is selected, when you click outside of it (on blank space in the window), it will now de-select itself.
+
+-- If a Hook's source code changes outside of the app, you now receive a warning and the Hook is automatically disabled until you check the code, make sure it's safe and re-enable it. Those of you who have been using Hooks will see this on the first run of this build. This stops your evil co-worker from creating a Hook that does "rm ~/Documents -rf", pushing that project, having you pull it and then save a file and watching your Documents folder evaporate. Good addition, no?
+
+-- Since the above is now in place, Hooks are now loaded from the project settings file.
+
+-- A Hook with no souce-code set will no longer cause the message bar at the bottom of the app to get stuck on the "running hooks" message. (Hi Aaron!)
+
+-- Optimized images now correctly retain their checkmark icons
+
+-- Even more optimizations to the file-event handling algorithm; should be a few fractions of a second faster now.
+
+-- When you change project settings and CodeKit saves them to the config.codekit file, that file-change event will no longer trigger a completely pointless refresh in the app. If the config.codekit file changes externally, the app will refresh to capture the new file's settings.
+
+-- Clicking any part of the "External Server Required" switch will now toggle the switch. I write detailed change logs.
+
+-- "Set Output Path" and "Compile" contextual menu options now correctly disabled for files in a CodeKit Framework
+
+-- Ruby Sass updated to 3.3.rc5. Fixes huge bug that broke Zurb Foundation.
+
+
+
+
+
+
+
+
+
 Beta 18 (16609)
 --------------------------------------------
 
@@ -18,6 +55,9 @@ Beta 18 (16609)
 
 
 
+
+
+
 Beta 17 (16546)
 -------------------------------------------
 
@@ -30,6 +70,8 @@ Beta 17 (16546)
 -- Added several items to the default Skipped Items list to make the app just work with Statamic projects
 
 -- Sass updated to 3.3.0.rc3 (Brings several fixes, including limiting deprecation warnings when variables don't use !global syntax)
+
+
 
 
 
