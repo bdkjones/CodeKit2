@@ -1,3 +1,36 @@
+Beta 20 (16820)
+--------------------------------------------
+
+-- Slim updated to 2.0.2
+
+-- Current Working Directory for Slim compiler set to whatever folder the input file is in because, apparently, Slim can't find files that are right next to the input file.
+
+-- Changing the external server settings for a project in the Project Settings area will now just refresh the current preview URL (if it's open on any devices/browsers); it will no longer reset the preview URL to the site root.
+
+-- Libsass updated to latest commit
+
+-- FIXED: a race-condition that could cause Libsass to randomly fail to locate imported files correctly. 5 hours invested tracking this one done. I LOVE programming.
+
+-- CoffeeLint updated to version 1.1 and is working again, after it apparently stopped working sometime in the past few months. 10 hours invested in fixing this; turned out to be a missing line in coffeelint.js.
+
+-- CoffeeLint version info added to About window
+
+-- CoffeeScript files that are set to not produce an output file but DO have syntax checking enabled will now be syntax-checked when they are saved.
+
+-- CoffeeLint's JavascriptCore context is now kept spun-up on a background queue. Experimenting to see if we get a speed bump from not constructing/destructing a JSC context for every call to the syntax-checkers. Testing shows no appreciable (user-noticeable) gain.
+
+-- Tooltips active on syntax-checker option names in project settings, because coffeeLint has ridiculously long option names.
+
+
+
+
+
+
+
+
+
+
+
 Beta 19 (16653)
 --------------------------------------------
 
