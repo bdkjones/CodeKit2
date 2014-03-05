@@ -1,3 +1,16 @@
+CODEKIT 2 IS LIVE!
+
+Grab a copy at http://incident57.com/codekit
+
+Thanks for all your help these past few months!
+
+-----------------------------------------------------------
+
+
+
+
+
+
 CodeKit 2 Beta
 ==============
 
