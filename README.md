@@ -1,63 +1,17 @@
-CODEKIT 2 IS LIVE!
+CodeKit 2 Issue Tracker
+=======================
 
-Grab a copy at http://incident57.com/codekit
-
-Thanks for all your help these past few months!
-
------------------------------------------------------------
+This is the public issue tracker for CodeKit 2.
 
 
+### How to Not Suck At Bug Reporting
+
+1. Before opening an issue, search exisiting open AND closed issues. 
+2. For bug reports, include a demo file/project (or link to download one) that SHOWS THE ISSUE so I can debug with it.
+3. INCLUDE DETAILS. Build of CodeKit, version of OS X. Which browser you use, which language you're writing, etc. Everything is helpful. 
 
 
-
-
-CodeKit 2 Beta
-==============
-
-
-### SECRECY
-
-Do NOT share CodeKit 2. No tweets, no screenshots, no sending the app to your buddy, etc. You are the first people other than my close friends to see CodeKit 2. Please don't ruin my launch.
-
-
----------------------------------------------------------
-
-### Filing Bugs
-
-1. *BE SURE* you're running the latest beta.
-2. Search the issues page (including closed issues) for the bug you're seeing.
-3. If the bug is new, write up an issue and include:
-
-+ Bug description
-+ How you got it to happen (steps to reproduce)
-+ What OS you're on
-+ What editor you're using, what language you're working in, etc.
-
-
-
----------------------------------------------------------
-
-### How To Proceed
-
-1. Download the zipped application above.
-2. Unzip.
-3. Drag CodeKit 2 to your Applications folder.
-4. QUIT CODEKIT 1!
-5. Launch CodeKit 2.
-
----------------------------------------------------------
-
-### What To Focus On
-
-I'll update this list as we go, but for now I'd like to focus testing on:
-
-1. Browser refresh using external servers.
-2. Browser refresh in projects that use complex tools like Wordpress or Drupal.
-3. Browser refresh on devices (iPhone, iPad, Android, Kindle, Nook, etc.)
-4. Hooks -- do they work reliably? Are they performant?
-5. Project settings syncing across teams -- does it work correctly?
-
----------------------------------------------------------
+----------------------------------
 
 ### The Shift-Start Trick
 
